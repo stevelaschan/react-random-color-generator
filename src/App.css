@@ -2,14 +2,14 @@
   height: 100vh;
   width: 100vw;
 
-  display: block;
+  display: grid;
   place-items: center;
 
   transition: all 0.5s ease-in-out;
 }
 
 button {
-  margin: 7em;
+  margin-top: 350px;
   padding: 20px 50px;
   font-size: 36px;
   font-weight: 700;
@@ -36,5 +36,8 @@ button:hover {
 
 h3 {
   color: white;
-  margin-left: 15em;
+  padding: 0.2em;
+  margin-bottom: 250px;
+  font-size: 1.3em;
+  border-bottom: solid white;
 }
