@@ -16,13 +16,13 @@ const RandomColor = () => {
       .join('');
 
   const handleGenerate = () => {
-    const color = {
+    const singlecolor = {
       r: getRgb(),
       g: getRgb(),
       b: getRgb(),
     };
 
-    setColor(rgbToHex(color.r, color.g, color.b));
+    setColor(rgbToHex(singlecolor.r, singlecolor.g, singlecolor.b));
   };
 
   return (
@@ -30,7 +30,9 @@ const RandomColor = () => {
       <button style={{ color: color }} onClick={handleGenerate}>
         Generate
       </button>
-      <h3>Generated Color: {color}</h3>
+      <div>
+        <h3>Generated Color: {color}</h3>
+      </div>
     </div>
   );
 };
