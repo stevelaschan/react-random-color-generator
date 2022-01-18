@@ -31,7 +31,7 @@ const RandomColor = () => {
         Generate
       </button>
       <div>
-        <h3>Generated Color: {color}</h3>
+        <h3 style={{ backgroundColor: color }}>Generated Color: {color}</h3>
       </div>
     </div>
   );
