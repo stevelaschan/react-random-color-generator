@@ -34,7 +34,7 @@ button:hover {
   box-shadow: none;
 }
 
-h3 {
+.hexCode {
   color: white;
   padding: 0.2em;
   margin-bottom: 250px;

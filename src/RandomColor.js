@@ -30,8 +30,8 @@ const RandomColor = () => {
       <button style={{ color: color }} onClick={handleGenerate}>
         Generate
       </button>
-      <div>
-        <h3 style={{ backgroundColor: color }}>Generated Color: {color}</h3>
+      <div className="hexCode" style={{ backgroundColor: color }}>
+        Generated Color: {color}
       </div>
     </div>
   );
