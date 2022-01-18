@@ -40,4 +40,5 @@ button:hover {
   margin-bottom: 250px;
   font-size: 1.3em;
   border-bottom: solid white;
+  border-radius: 5px;
 }
